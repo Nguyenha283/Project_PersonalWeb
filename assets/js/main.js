@@ -64,3 +64,19 @@
 				});
 
 })(jQuery);
+
+
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Ngăn chặn hành động mặc định của form
+
+    // Thực hiện gửi dữ liệu qua AJAX hoặc các phương thức khác nếu cần
+    // ...
+
+    // Hiển thị thông báo thành công
+    document.getElementById('success-message').style.display = 'block';
+
+    // Reset form sau khi hiển thị thông báo
+    document.getElementById('contact-form').reset();
+});
+

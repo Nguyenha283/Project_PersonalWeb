@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Escape Velocity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title> Profile </title>
@@ -125,6 +120,34 @@
 				</section>
 
 			<!-- Highlights -->
+			<section id="highlights" class="wrapper style3">
+				<div class="title">My Projects</div>
+				<div class="container">
+					<div class="row aln-center">
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
+								<a href="https://github.com/Nguyenha283/Project_Portfolio" class="image featured"><img src="images/Covid.png" alt="" /></a>
+								<h3>Explore Covid-19 Data with SQL</h3>
+							</section>
+						</div>
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
+								<a href="https://public.tableau.com/app/profile/ha.nguyen3445/vizzes" class="image featured"><img src="images/Chart.png" alt="" /></a>
+								<h3>Visualization data with Tableau</h3>
+							</section>
+						</div>
+						<div class="col-4 col-12-medium">
+							<section class="highlight">
+								<a href="" class="image featured"><img src="images/Excel.png" alt="" /></a>
+								<h3>Data processing in Excel</h3>
+							</section>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+
+
 			<!-- Footer -->
 			<section id="footer" class="wrapper">
 				<div class="title">More Informations</div>
@@ -133,8 +156,9 @@
 						<div class="col-6 col-12-medium">
 
 							<!-- Contact Form -->
+
 								<section>
-									<form method="post" action="#">
+									<form id="contact-form" method="post">
 										<div class="row gtr-50">
 											<div class="col-6 col-12-small">
 												<input type="text" name="name" id="contact-name" placeholder="Name" />
@@ -153,7 +177,9 @@
 											</div>
 										</div>
 									</form>
+									<div id="success-message" style="display:none; color: green; font-weight: bold;">Messages send successfully!</div>
 								</section>
+
 
 						</div>
 						<div class="col-6 col-12-medium">
